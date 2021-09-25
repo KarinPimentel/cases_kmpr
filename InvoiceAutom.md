@@ -1,5 +1,5 @@
 # Automation of the Invoice Verification Process
-----------------------------------------------------------------------
+
 **My role:**
 - Business and Data Analyst
  

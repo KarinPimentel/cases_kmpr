@@ -1,44 +1,30 @@
-# Customer Portfolio Segmentation
+# Automation of the Invoice Verification Process
 
 **My role:**
-- Business and Data Analyst.
+- Business and Data Analyst
 
 **Team Structure:**
-- UX Designer, Customer Success Manager, and Developers (back and front end).
+- Finances, Account, Data Engineers, and Developers (back end).
 
 **Tools / Software:**
-- Operacional (internal software similar to SAP, Totovs, Odoo, etc.).
+- Metabase (open source Business Intelligence server), SQL, DBeaver, Mongo Compass, and Robo 3T. Databases: Redshift and Mongo DB.
 
 **Skills:**
-- Business intelligence, understanding of business rules and structure, design clients profile.
+- Business intelligence, design data structure, project manager, data accuracy, process development.
 
-## Problem:
+### Problem:
+There wasn't a link between the sale and the invoice.
 
-The company didn’t have a concrete way to analyze, treat and invest in the clients. Which was limiting the company and the team’s growth. The client satisfaction score had been decreasing.
+### Goal:
+Automate the process by linking the invoice to the sale id, eliminate the manual process, saving time, and improving productivity.
 
-![nps0521_n](https://user-images.githubusercontent.com/84238167/134752305-f7e0fbf7-5611-4a75-8c4f-8121907a636a.JPG)
+### Structure of the problem:
+I needed to understand the structure of the software used, in order to get why this link didn't exist and how we could create it, solving the problem in a simple and fast way.
 
+After this process of understanding the structure, it was necessary to contact our development team, to structure and insert the data in our transitional database. After that, get in touch with the data engineer team, to structure the data in our data lake, enabling the delivery of it to the area.
 
-## Goal:
+### Implementation plan:
+After the process of understanding the structure, the development team and I designed a new structure to link both information in our transitional database. After that, I contacted the data engineer team, explaining the demand, they inserted the new structure on our data lake, enabling the delivery of it to the area
 
-Create a way to clarify how we could classify and identify our clients to better understand our customer necessities and profile.
-
-## Implementation plan:
-Analyze our current customer portfolio to identify patterns that could help us to cluster customers, applying the Customer Success (CS) team’s previous knowledge about the customers to define their needs and the company’s interests.
-
-We understood what we could offer at that point in terms of budget, customer service capacity, and customer requirements.
-
-After that, we defined 5 categories, where each client would fit better according to the client's market segment. 
-
-Each category became a part of our funnel of granularity of data, focused on how we would analyze our portfolio and provide customer service.
-
-![carteira_seg](https://user-images.githubusercontent.com/84238167/134752320-35f47f2e-30c5-4151-8f3e-9c055176b11c.JPG)
-
-
-## Result: 
-With this segmentation we reformulated KPIs related to our customers in an assertive way, expecting specific and distinct results according to the clients’ potential. The company grow in **52%** of clients, and **60,7%** of employees.
-
-![emp_seg](https://user-images.githubusercontent.com/84238167/134752278-9f2b0f4c-2be2-45b2-a740-4b09ce5fe473.JPG)
-
-
-
+### Result: 
+This project helped mainly the financial and account department since we bind the sale to the invoice, helping them in the process of verifying and declare our fiscal information. This process was 100% manual, now it’s **automatic**, it became faster and more **accurate**, eliminating human errors. Since the change, that was made in April/2021, **more than 3K** service notes have already been issued in the company.
